@@ -1,51 +1,58 @@
+/* ContactPage.css */
 body {
     font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
     background: #1e5799;
-}
-
-.header {
+  }
+  
+  .contact-page {
+    background-color: #1e5799;
+    color: white;
+  }
+  
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #184579;
     color: white;
-}
-
-.header .logo {
+  }
+  
+  .header .logo {
     font-size: 24px;
     font-weight: bold;
-}
-
-.header .nav-links {
+  }
+  
+  .header .nav-links {
     list-style: none;
     display: flex;
     gap: 15px;
-}
-
-.header .nav-links a {
+  }
+  
+  .header .nav-links a {
     color: white;
     text-decoration: none;
-}
-
-.row {
+  }
+  
+  .row {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.left {
+  }
+  
+  .left {
     width: 1000px;
     padding-top: 10px;
-}
-
-.right {
+  }
+  
+  .right {
     width: 25%;
     padding: 0 20px 0 20px;
-}
-
-.card {
+  }
+  
+  .card {
     background: #4087d9;
     padding: 20px;
     margin-top: 20px;
@@ -54,14 +61,15 @@ body {
     box-shadow: inset 0px 0px 0px 12px #6fa5e3;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-h1 {
+  }
+  
+  h1 {
     font-size: 44px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Hedvig Letters Serif", Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-}
-
-h4 {
+  }
+  
+  h4 {
     text-align: center;
-}
+  }
+  

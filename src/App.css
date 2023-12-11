@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px;
+  background: #1e5799;
+}
+
+h1 {
+  font-size: 44px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+h4 {
+  text-align: center;
+}

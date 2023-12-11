@@ -1,0 +1,26 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    width: 1000px;
+    padding-top: 10px;
+}
+
+.right {
+    width: 25%;
+    padding: 0 20px 0 20px;
+}
+
+.card {
+    background: #4087d9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: inset 0px 0px 0px 12px #6fa5e3;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
