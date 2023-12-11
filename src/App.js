@@ -9,12 +9,14 @@ import ContactPage from "./ContactPage";
 function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route path="/" exact Component={Main} />
-        <Route path="/about" Component={About} />
-        <Route path="/contact" Component={ContactPage} />
-      </Routes>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+      </div>
     </Router>
   );
 }
