@@ -1,6 +1,5 @@
 import React from "react";
 import './Header.css';
-
 import Echidna from './echidna.png';
 
 function Header() {
